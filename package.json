@@ -52,7 +52,7 @@
     "virtua": "^0.46.7",
     "vue-sonner": "^2.0.9",
     "vue3-simple-icons": "^15.6.0",
-    "zod": "^3.25.76"
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@anatine/zod-mock": "^3.14.0",

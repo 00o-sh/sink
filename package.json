@@ -71,7 +71,7 @@
     "eslint-plugin-better-tailwindcss": "^4.1.1",
     "eslint-plugin-format": "^1.0.2",
     "lint-staged": "^16.2.6",
-    "nuxt": "^4.2.2",
+    "nuxt": "^4.3.0",
     "shadcn-nuxt": "^2.3.2",
     "simple-git-hooks": "^2.13.1",
     "tailwind-merge": "^3.4.0",

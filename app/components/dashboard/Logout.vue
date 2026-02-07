@@ -1,8 +1,10 @@
-<script setup>
+<script setup lang="ts">
 import { LogOut } from 'lucide-vue-next'
 
+const { removeToken } = useAuthToken()
+
 function logOut() {
-  localStorage.removeItem('SinkSiteToken')
+  removeToken()
   navigateTo('/dashboard/login')
 }
 </script>
@@ -11,7 +13,7 @@ function logOut() {
   <AlertDialog>
     <AlertDialogTrigger as-child>
       <LogOut
-        class="h-4 w-4 cursor-pointer"
+        class="size-4 cursor-pointer"
       />
     </AlertDialogTrigger>
     <AlertDialogContent

@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.2.3",
   "private": true,
-  "packageManager": "pnpm@10.28.2",
+  "packageManager": "pnpm@10.29.3",
   "engines": {
     "node": ">=22"
   },
@@ -70,7 +70,7 @@
     "globe.gl": "^2.45.0",
     "intl-parse-accept-language": "^1.0.0",
     "lint-staged": "^16.2.7",
-    "lucide-vue-next": "^0.563.0",
+    "lucide-vue-next": "^0.564.0",
     "mysql-bricks": "^2.0.0",
     "nanoid": "^5.1.6",
     "nuxt": "^4.3.0",

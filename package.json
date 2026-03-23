@@ -70,7 +70,7 @@
     "globe.gl": "^2.45.0",
     "intl-parse-accept-language": "^1.0.0",
     "lint-staged": "^16.2.7",
-    "lucide-vue-next": "^0.577.0",
+    "lucide-vue-next": "^1.0.0",
     "mysql-bricks": "^2.0.0",
     "nanoid": "^5.1.6",
     "nuxt": "^4.3.0",

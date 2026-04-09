@@ -198,8 +198,8 @@ importers:
         specifier: ^3.2.4
         version: 3.2.6(typescript@6.0.2)
       vue3-simple-icons:
-        specifier: ^15.6.0
-        version: 15.6.0(typescript@6.0.2)
+        specifier: ^16.0.0
+        version: 16.10.0(typescript@6.0.2)
       workers-ai-provider:
         specifier: ^3.0.4
         version: 3.1.7(@ai-sdk/provider@3.0.8)(ai@6.0.137(zod@4.3.6))
@@ -7568,8 +7568,8 @@ packages:
     peerDependencies:
       typescript: '>=5.0.0'
 
-  vue3-simple-icons@15.6.0:
-    resolution: {integrity: sha512-e7FkRt5yY6wDmeBzOL7PQw/n5PIiYh5Xbk9f0aAVJpl1E1ddMRLLRjiD9tG8P2UTtCc0Yh48XN3tn0TdZAuL0w==}
+  vue3-simple-icons@16.10.0:
+    resolution: {integrity: sha512-i5i4K3R+ZLFLsb+Gjw7jHxOQW5hhH4NcB0U2Xe1v3FKnqFJow8A5sgRglAwFtFDHLw1peDIRRRe8dCxs9yhVdQ==}
 
   vue@3.5.30:
     resolution: {integrity: sha512-hTHLc6VNZyzzEH/l7PFGjpcTvUgiaPK5mdLkbjrTeWSRcEfxFrv56g/XckIYlE9ckuobsdwqd5mk2g1sBkMewg==}
@@ -15514,7 +15514,7 @@ snapshots:
       '@vue/language-core': 3.2.6
       typescript: 6.0.2
 
-  vue3-simple-icons@15.6.0(typescript@6.0.2):
+  vue3-simple-icons@16.10.0(typescript@6.0.2):
     dependencies:
       vue: 3.5.30(typescript@6.0.2)
     transitivePeerDependencies:

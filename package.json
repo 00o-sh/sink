@@ -94,7 +94,7 @@
     "vue-sonner": "^2.0.9",
     "vue-tsc": "^3.2.4",
     "vue3-simple-icons": "^15.6.0",
-    "workers-ai-provider": "^3.0.4",
+    "workers-ai-provider": "^4.0.0",
     "wrangler": "^4.62.0",
     "zod": "^4.3.5"
   },

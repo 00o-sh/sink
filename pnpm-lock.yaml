@@ -201,8 +201,8 @@ importers:
         specifier: ^15.6.0
         version: 15.6.0(typescript@6.0.3)
       workers-ai-provider:
-        specifier: ^3.0.4
-        version: 3.3.1(@ai-sdk/provider@3.0.13)(ai@6.0.219(zod@4.4.3))
+        specifier: ^4.0.0
+        version: 4.0.1(@ai-sdk/provider@3.0.13)(ai@6.0.219(zod@4.4.3))
       wrangler:
         specifier: ^4.62.0
         version: 4.107.0
@@ -488,6 +488,7 @@ packages:
 
   '@cloudflare/vitest-pool-workers@0.18.0':
     resolution: {integrity: sha512-h4yFk1SmL5OT2HP2LEE8CzX0UuF+jS40MYPo2o/wlYn/qQIj1cBbWeGh20h6Wn/HFcx9KqxecAGWb8EENIKTTQ==}
+    deprecated: '@cloudflare/vitest-pool-workers has been renamed to @cloudflare/vitest-plugin. This package will not receive future updates.'
     peerDependencies:
       '@vitest/runner': ^4.1.0
       '@vitest/snapshot': ^4.1.0
@@ -7385,14 +7386,17 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  workers-ai-provider@3.3.1:
-    resolution: {integrity: sha512-vArwnmiAxQQF1clsXJd9ADn1xK9YUZVxE4umaMhrdsxM2kucxP430LfaoH4rn0AfoqtnuH3bfRhW1ak0r1x/8A==}
+  workers-ai-provider@4.0.1:
+    resolution: {integrity: sha512-PDznmd1A6g058FGWDjQ6Io1LlV51gGQ7pze7y/rnsdxLnNgjqQf8zRHoKjJv3RPoU5cU4QT4TX7lZ2kxX2x73g==}
+    deprecated: |-
+      Deprecated. Use createAI from agents/models/ai-sdk, or
+       ai-search-provider for AI Search: https://developers.cloudflare.com/agents/models/ai-sdk/
     peerDependencies:
-      '@ai-sdk/anthropic': ^3.0.0
-      '@ai-sdk/google': ^3.0.0
-      '@ai-sdk/openai': ^3.0.0
-      '@ai-sdk/provider': ^3.0.0
-      ai: ^6.0.0
+      '@ai-sdk/anthropic': ^4.0.0
+      '@ai-sdk/google': ^4.0.0
+      '@ai-sdk/openai': ^4.0.0
+      '@ai-sdk/provider': ^4.0.0
+      ai: ^7.0.0
     peerDependenciesMeta:
       '@ai-sdk/anthropic':
         optional: true
@@ -15079,7 +15083,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20260701.1
       '@cloudflare/workerd-windows-64': 1.20260701.1
 
-  workers-ai-provider@3.3.1(@ai-sdk/provider@3.0.13)(ai@6.0.219(zod@4.4.3)):
+  workers-ai-provider@4.0.1(@ai-sdk/provider@3.0.13)(ai@6.0.219(zod@4.4.3)):
     dependencies:
       '@ai-sdk/provider': 3.0.13
       ai: 6.0.219(zod@4.4.3)
